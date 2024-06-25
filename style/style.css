@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 320px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(50, 205, 50);
+    display: inline-block;
+    justify-content: space-between;
+    height: 250px;
+    overflow-y: auto;
+}
+
+.card h2 {
+    font-family: sans-serif;
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.fa-id-card, .fa-user, .fa-id-card, .fa-location-dot, .fa-building, .fa-envelope, .fa-phone, .fa-globe {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #32cd329d;
+}
+
+a.text-decoration {
+    text-decoration: none;
+    font-size: 1rem;
+}
